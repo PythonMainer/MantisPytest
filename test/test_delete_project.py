@@ -4,7 +4,6 @@ from model.project import Project
 import random
 
 
-
 def test_delete_some_project(app, db):
     if len(db.get_project_list()) == 0:
         app.project.add_new_project(Project(name="te423st", description="desc24ription"))

@@ -3,6 +3,7 @@
 from model.project import Project
 
 
+
 def test_add_project(app, db, json_project):
     project = json_project
     old_list = db.get_project_list()
